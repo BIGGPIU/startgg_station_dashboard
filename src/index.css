@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+html {
+  background-color:oklch(0.13 0.028 261.692);
+}
+
+:root {
+  /* background-color: #242424; */
+  color:white;
+  background-color: oklch(27.8% 0.033 256.848);
+}

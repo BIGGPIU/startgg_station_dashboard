@@ -1,0 +1,16 @@
+query GetTournamentEventsAndSets($eventSlug: String ) {
+  event(slug: $eventSlug) {
+    stations(query: {
+      page:1 
+      perPage:512
+    }) {
+      nodes {
+        enabled
+        number
+        stream {
+          streamName
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+query GetUsersInStationsSet($eventSlug: String,$stationNumber: Int) {
+  event(slug: $eventSlug) {
+    sets(
+      filters:{
+        stationNumbers:[ $stationNumber ]
+      }
+    ) {
+      nodes {
+        fullRoundText
+        slots(includeByes:false) {
+          entrant {
+            name
+          }
+        }
+      }
+    }
+  }
+}
