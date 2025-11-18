@@ -14,7 +14,7 @@ function App() {
 	const [tournamentToCheck,updateTournamentToCheck] = useState("");
 	// const [tournamentToCheck,updateTournamentToCheck] = useState("tournament/dave-tournament-organizer-tournament/event/ssbu-sinles");
 	const [apiKey, updateApiKey] = useState("")
-	I got rid of this code if you try to use it you're gonna look STUPID
+	// I got rid of this code if you try to use it you're gonna look STUPID
 
 	let show_login_panel;
 	let thing_to_show = <></>
